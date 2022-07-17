@@ -1,0 +1,10 @@
+aString = "JM"
+aByteArray = bytearray (aString, "utf8")
+
+byteList = []
+
+for byte in aByteArray:
+    binaryRepresentation = bin(byte)
+    byteList.append(binaryRepresentation)
+
+print(byteList)
