@@ -1,5 +1,5 @@
 aString = "JM"
-aByteArray = bytearray (aString, "utf8")
+aByteArray = bytearray (aString, "bin8")
 
 byteList = []
 
